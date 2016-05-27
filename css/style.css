@@ -1,0 +1,37 @@
+
+ #magical-sentence{
+ 	max-width: 550px !important;
+    background-color: #545452;
+    color: white;
+    font-family: helvetica neue, helvetica, sans-serif;
+    font-weight: 100;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 100 !important;	
+    margin: 5rem;
+    letter-spacing: .1rem;
+}
+
+button{
+    letter-spacing: .2rem;	
+    font-weight: 200;
+}
+button:focus{
+	outline: -webkit-focus-ring-color auto 0px;	
+}
+
+.buttons .col-xs-6{
+    padding: 0px;	
+}
+#show-me button{
+    width: 100%;
+    background-color: #d1bc01;
+    border: none;	
+}
+
+#hide-me button{
+    color: #545452;
+    width: 100%;	
+}

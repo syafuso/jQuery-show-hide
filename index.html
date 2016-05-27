@@ -1,0 +1,48 @@
+<!--
+Content: I am a magical sentence.
+Buttons: Hide Me, Show Me
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>I am a magical sentence.</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--bootstrap-->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!--css file-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--jquery cdn-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+		    $("#hide-me button").click(function(){
+		        $("h1").hide(1000);
+		    });
+		    $("#show-me button").click(function(){
+		        $("h1").show(1000);
+		    });
+		});
+	</script>
+</head>
+<body>
+<!--magical sentence-->
+<div class="container" id="magical-sentence">
+	<div class="row">
+		<h1> I am a magical sentence. </h1>
+	</div>
+	<div class="row buttons">
+		<div class="col-xs-6" id="hide-me">
+			<button>Hide Me!</button>
+		</div>
+		<div class="col-xs-6" id="show-me">
+			<button>Show Me!</button>
+		</div>
+	</div>
+
+</div><!--end magical sentence-->
+
+</body>
+
+</html>
